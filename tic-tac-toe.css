@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body{
+    background-image: url("back.jpg");
+   
+}
+h1 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: cadetblue;
+}
+
+.x {
+    color: rgb(7, 105, 216);
+    font-size: 80px;
+}
+
+.o {
+    color: rgb(255, 234, 0);
+    font-size: 80px;
+}
+
+.win {
+    background-color: rgb(204, 0, 10);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* #reset {
+    margin: 48px 40%;
+    padding: 15px;
+    text-align: center;
+}
+ */
+
+ #reset {
+    font-family: 'Caveat', cursive;
+    margin: 30px 40%;
+    padding: 10px;
+    border: 2px solid white;
+   background-color: grey;
+    color: black;
+    font-size:15px;
+ }
+ #reset:hover{
+    background-color: black;
+    color: white;
+ }
